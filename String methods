@@ -1,0 +1,11 @@
+z = "Ayush Parashar"
+print(z.upper())
+y = "Ayush Parashar"
+print(y.lower())
+print(y.replace("Ayush Parashar", "Shorya Parashar"))
+str1 = "Ayush Pandat"
+print(str1.split(" "))
+sent1 = "i am Ayush Parashar"
+print(sent1.capitalize())
+str2 = "My name is Ayush Parashar."
+print(str2.endswith("."))

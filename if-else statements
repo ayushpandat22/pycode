@@ -1,0 +1,30 @@
+# Using if else statements
+
+# Example-1
+age = int(input("Enter you age: ")) 
+
+if(age >= 18):
+    print("You can drive.")
+else:
+    print("You can't drive.")  
+
+# Example-2
+budget = int(input("Now enter your budget: "))
+product = int(input("Enter the price of product: "))
+
+if(budget > product):
+    print("You should buy it.")
+else:
+    print("You should buy it later.")
+
+# Using elif
+# Example-3
+num1 = int(input("Enter the first number"))
+num2 = int(input("Enter the second number"))
+
+if(num1 > num2):
+    print("Num1 is greater.")
+elif(num1 == num2):
+    print("both num are equal.")
+else:
+    print("num2 is greater.")
